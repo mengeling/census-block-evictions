@@ -10,6 +10,6 @@ Next, add the location's name as a new key in `config.py`, and make the value a 
 
 ![Alt text](img/dc_config.png)
 
-Once all of the desired locations have been added to `config.py`, running `python get_census_blocks.py` will generate a CSV and .geojson file for each of the locations in `config.py` and save it to the data directory. The CSV will have the eviction data for all of the locations in the polygon, and the .geojson file can be uploaded to a website like https://mapshaper.org/ to visually confirm the right census blocks were selected as shown below for Washington DC.
+Once all of the desired locations have been added to `config.py`, run `python get_census_blocks.py` to generate a CSV and .geojson file for each of the locations in the data directory. The CSV will have the eviction data for all of the locations in the polygon, and the .geojson file can be uploaded to a website like https://mapshaper.org/ to visually confirm the right census blocks were selected as shown below for Washington DC.
 
 ![Alt text](img/dc_mapshaper.png)
